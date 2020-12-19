@@ -3,9 +3,9 @@ import json
 from bs4 import BeautifulSoup
 from typing import Dict
 
-SOURCE_URL = "https://emplea.do"
-JOBS_URL = f"{SOURCE_URL}/jobs"
-SAVE_PATH = "data/data.json"
+SOURCE_URL: str = "https://emplea.do"
+JOBS_URL: str = f"{SOURCE_URL}/jobs"
+SAVE_PATH: str = "data/data.json"
 
 
 def normalize(job_element) -> Dict[str, str]:
