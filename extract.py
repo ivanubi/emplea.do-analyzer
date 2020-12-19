@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 import requests
 import json
 from bs4 import BeautifulSoup
@@ -33,6 +36,11 @@ def get_jobs_elements() -> list:
     return list(jobs_elements)
 
 
-data = list(map(normalize, get_jobs_elements()))
-with open(SAVE_PATH, "w") as text_file:
-    print(json.dumps(data), file=text_file)
+def save_data(file_path: str, data: str) -> None:
+    with open(file_path, "w") as text_file:
+        print(json.dumps(data), file=text_file)
+
+
+if __name__ == "__main__":
+    data = list(map(normalize, get_jobs_elements()))
+    save_data(SAVE_PATH, json.dumps(data))
