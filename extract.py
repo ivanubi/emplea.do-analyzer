@@ -8,7 +8,7 @@ from typing import Dict
 
 SOURCE_URL: str = "https://emplea.do"
 JOBS_URL: str = f"{SOURCE_URL}/jobs"
-SAVE_PATH: str = "data/data.json"
+SAVE_PATH: str = "data/source/data.json"
 
 
 def normalize(job_element) -> Dict[str, str]:
