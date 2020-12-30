@@ -8,8 +8,8 @@ TECHNOLOGIES_FILE_PATH: str = f"{DATA_SOURCE_PATH}/technologies.json"
 JOB_POSTS_FILE_PATH: str = f"{DATA_SOURCE_PATH}/data.json"
 TECHNOLOGIES_TYPES: list = [
     "languages",
+    "frontend",
     "frameworks",
-    "clouds",
     "databases",
     "clouds",
     "mobile",
@@ -92,11 +92,11 @@ def save_data_to_file(data: str, file_path: str):
 
 
 if __name__ == "__main__":
-
+    print("Counting technologies, this might take a while...")
     technologies_data: dict = get_data_from_file(TECHNOLOGIES_FILE_PATH)
     job_posts: list = get_data_from_file(JOB_POSTS_FILE_PATH)
     job_posts_by_year: dict = group_job_posts_by_year(job_posts)
-    print("Counting technologies, this might take a while...")
+    print(len(job_posts_by_year["2020"]))
     for technology_type in TECHNOLOGIES_TYPES:
         technologies_count: dict = count_technologies(
             technologies_data[technology_type], job_posts
