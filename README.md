@@ -41,7 +41,7 @@ and tries to count and find those technologies using the regular expression `(^|
 
 1. Clone the repo with `git clone https://github.com/ivanubi/emplea.do-analyzer.git` 
 2. Install requirements with `pip install -r requirements.txt`.
-3. Extract all emplea.do's job posts with `python3 extract.py' (note: this will send more than 1200 requests in just a few seconds to emplea.do).
+3. Extract all emplea.do's job posts with `python3 extract.py` (note: this will send more than 1200 requests in just a few seconds to emplea.do).
 4. Count the presence of all languages, frameworks... by running `python3 calculate.py`.
 5. Check out the results at `/data/results`.
 
