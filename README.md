@@ -65,7 +65,7 @@ You can checkout the raw results without even running the script by looking into
 <img src="https://imgur.com/FBJbJjo.png" height="400" />
 
 ### Clouds:
-<img src="https://imgur.com/L335Z27.png" height="400" />
+<img src="https://imgur.com/1uKc6OF.png" height="400" />
 <img src="https://imgur.com/6xwV2PR.png" height="400" />
 
 ### Mobile hybrid development:
