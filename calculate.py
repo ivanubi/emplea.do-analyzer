@@ -96,7 +96,6 @@ if __name__ == "__main__":
     technologies_data: dict = get_data_from_file(TECHNOLOGIES_FILE_PATH)
     job_posts: list = get_data_from_file(JOB_POSTS_FILE_PATH)
     job_posts_by_year: dict = group_job_posts_by_year(job_posts)
-    print(len(job_posts_by_year["2020"]))
     for technology_type in TECHNOLOGIES_TYPES:
         technologies_count: dict = count_technologies(
             technologies_data[technology_type], job_posts
