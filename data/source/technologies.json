@@ -2,7 +2,7 @@
     "languages": [["javascript"], "html", "css", "python", "java", "c#", "php", "typescript", "c++", "kotlin", "ruby", ["assembly", "asm", "ensamblador"], "swift", "rust", ["objective-c", "objective c"], "scala", "perl", "haskell", "julia", "delphi", "dart"],
     "frontend": ["jquery", ["react", "reactjs", "react.js"], ["angular", "angularjs", "angular.js"], ["vue", "vuejs", "vue.js"], "svelte"],
     "frameworks": [["asp.net", "asp net", "net core", ".net core", "asp", "asp.net core", ".net"], ["express", "expressjs", "express.js"], "spring", "jsf", "grails", "django", "rails", "flask", "laravel", "symfony", "gatsby", "drupal", ["node", "nodejs", "node.js"], "wordpress"],
-    "databases": ["mysql",["postgresql", "postgres", "postgre"], "microsoft sql", "sqlite", "mongodb", "redis", "mariadb", "firebase", ["elasticsearch", "elastic search"], "dynamodb", "cassandra", "couchbase"],
+    "databases": [["oracle", "pl/sql", "pl-sql"], "mysql",["postgresql", "postgres", "postgre"], "microsoft sql", "sqlite", "mongodb", "redis", "mariadb", "firebase", ["elasticsearch", "elastic search"], "dynamodb", "cassandra", "couchbase"],
     "clouds": [["aws", "amazon web services", "amazon web service", "amazon cloud"], "azure", ["google cloud", "gc"]],
     "mobile": [["react native", "reactnative"], "flutter", ["cordova", "cordovajs", "cordova-js"], "phonegap", "ionic", "xamarin", "nativescript"]
 }

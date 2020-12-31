@@ -1,1 +1,1 @@
-{"mysql": 129, "postgresql": 53, "mongodb": 37, "microsoft sql": 32, "redis": 26, "firebase": 9, "sqlite": 4, "mariadb": 4, "elasticsearch": 4, "dynamodb": 2, "cassandra": 1, "couchbase": 0}
+{"mysql": 129, "oracle": 66, "postgresql": 53, "mongodb": 37, "microsoft sql": 32, "redis": 26, "firebase": 9, "sqlite": 4, "mariadb": 4, "elasticsearch": 4, "dynamodb": 2, "cassandra": 1, "couchbase": 0}
